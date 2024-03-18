@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information</title>
+    <style>
+    </style>
+</head>
+<body style="color: white;background-color:rgb(10, 79, 116);padding-top: 45px;font-size: 30px;"><center>
+    <!-- <div id="grad1"> -->
+    <h1>Weather Information for {{ weather.city }}</h1>
+    <p>Temperature: {{ weather.temperature }}°C</p>
+    <p>Description: {{ weather.description }}</p>
+    <img src="http://openweathermap.org/img/wn/{{ weather.icon }}.png" alt="Weather Icon"></center>
+    <!-- </div> -->
+</body>
+</html>
